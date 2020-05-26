@@ -1,0 +1,50 @@
+body {
+  font-size: 16px;
+  color: #3f3f44;
+  background-color: #f7f7f7;
+  font-family: 'Oxygen', sans-serif;
+}
+
+
+#header-nav {
+  background-color: #dbdbdb;
+  border-radius: 0;
+  border:0;
+}
+
+.navbar-brand a:hover , .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+.navbar-brand h1 { 
+  color: #000;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+#nav-list {
+	text-align: center;	
+	margin-top: 10px;
+	font-weight: bold;
+}
+
+#nav-list li {
+
+	margin: 1px;
+
+}
+
+#Chicken{
+	border: 0;
+	text-align: center;
+	background-color:#dbdbdb;
+}
+#Chicken h3{
+	
+	font-weight: bold;
+}
