@@ -1,15 +1,16 @@
 body {
   font-size: 16px;
   color: #3f3f44;
-  background-color: #f7f7f7;
+  background-color: #fff;
   font-family: 'Oxygen', sans-serif;
 }
 
 
 #header-nav {
-  background-color: #dbdbdb;
+  background-color: #f5b971;
   border-radius: 0;
   border:0;
+
 }
 
 .navbar-brand a:hover , .navbar-brand a:focus {
@@ -17,7 +18,7 @@ body {
 }
 
 .navbar-brand h1 { 
-  color: #000;
+  color: #85a392;
   font-size: 1.5em;
   text-transform: uppercase;
   font-weight: bold;
@@ -27,10 +28,17 @@ body {
   line-height: .75;
 }
 
+#collapsable-nav{
+	
+
+}
+
 #nav-list {
-	text-align: center;	
-	margin-top: 10px;
+	background-color: 
+	width: 96%;
+	margin:15px;
 	font-weight: bold;
+
 }
 
 #nav-list li {
@@ -39,12 +47,29 @@ body {
 
 }
 
-#Chicken{
-	border: 0;
-	text-align: center;
-	background-color:#dbdbdb;
+#menu-content{
+	width: 96%;
+	margin-left: 2%;
+	margin-top: 15px;
+	background-color:#ffecc7;
+	
 }
-#Chicken h3{
+#menu-content h3{
 	
 	font-weight: bold;
 }
+
+#page-heading{
+	font-weight: bold;
+	color: #85a392;
+}
+
+#menu-content h3{
+	font-weight: bold;
+	color: #85a392;
+}
+
+#menu-content p{
+	color: #85a392;
+}
+
